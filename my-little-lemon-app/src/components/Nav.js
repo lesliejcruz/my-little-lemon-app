@@ -4,6 +4,7 @@ import lemonlogo from "../images/lemonlogo.png"
 const Nav = () => {
     return (
     <nav>
+        <section>
         <img src={lemonlogo} alt="Little Lemon Logo"></img>
         <ul>
             <li>Home</li>
@@ -13,6 +14,7 @@ const Nav = () => {
             <li>Order Online</li>
             <li>Login</li>
         </ul>
+        </section>
     </nav>
     )
 }

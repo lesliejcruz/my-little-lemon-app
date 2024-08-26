@@ -4,6 +4,7 @@ import lemonlogo from "../images/lemonlogo.png"
 const Footer = () => {
     return (
     <footer>
+        <section>
         <img src={lemonlogo} alt="Little Lemon Logo"></img>
         <h3>Navigation</h3>
         <ul>
@@ -29,6 +30,7 @@ const Footer = () => {
             <li>LinkedIn</li>
             <li>Twitter</li>
         </ul>
+        </section>
     </footer>
     )
 }
